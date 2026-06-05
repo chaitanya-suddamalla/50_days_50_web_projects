@@ -296,15 +296,15 @@ function renderGrid(projects = PROJECTS) {
       <div class="card-footer">
         <div class="card-actions-left">
           <a
-            href="${url}"
+            href="${url === "#" ? getProjectDirectoryPath(name) : url}"
             class="card-link"
-            ${url === "#" ? 'onclick="return false;"' : 'target="_blank"'}
+            target="_blank"
           >
-            ${url === "#" ? "Coming Soon" : "Live Demo"}
+            Live Demo
           </a>
 
           <a
-            href="${getSourceUrl(url)}"
+            href="https://github.com/${window.REPO_OWNER}/${window.REPO_NAME}/tree/main/${getProjectDirectoryPath(name)}"
             target="_blank"
             class="card-link"
           >
@@ -364,15 +364,15 @@ function renderRecentProjects() {
       <div class="card-footer">
         <div class="card-actions-left">
           <a
-            href="${url}"
+            href="${url === "#" ? getProjectDirectoryPath(name) : url}"
             class="card-link"
-            ${url === "#" ? 'onclick="return false;"' : 'target="_blank"'}
+            target="_blank"
           >
-            ${url === "#" ? "Coming Soon" : "Live Demo"}
+            Live Demo
           </a>
 
           <a
-            href="${getSourceUrl(url)}"
+            href="https://github.com/${window.REPO_OWNER}/${window.REPO_NAME}/tree/main/${getProjectDirectoryPath(name)}"
             target="_blank"
             class="card-link"
           >
@@ -434,15 +434,15 @@ function renderBookmarkedProjects() {
       <div class="card-footer">
         <div class="card-actions-left">
           <a
-            href="${url}"
+            href="${url === "#" ? getProjectDirectoryPath(name) : url}"
             class="card-link"
-            ${url === "#" ? 'onclick="return false;"' : 'target="_blank"'}
+            target="_blank"
           >
-            ${url === "#" ? "Coming Soon" : "Live Demo"}
+            Live Demo
           </a>
 
           <a
-            href="${getSourceUrl(url)}"
+            href="https://github.com/${window.REPO_OWNER}/${window.REPO_NAME}/tree/main/${getProjectDirectoryPath(name)}"
             target="_blank"
             class="card-link"
           >
