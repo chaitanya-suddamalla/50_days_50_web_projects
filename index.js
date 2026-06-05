@@ -133,7 +133,63 @@ function getSourceUrl(url) {
 }
 
 function getProjectDirectoryPath(projectName) {
-  return `50-Days-50-Web-Projects/${projectName}/`;
+  // Map friendly project names to actual folder names in the repository
+  const PROJECT_DIR_MAP = {
+    "To-Do List": "01-To-Do-List",
+    "AI Image Classifier": "02-AI Image Classifier",
+    "Astronomy Dashboard": "03-AstronomyDashboard",
+    "Weather Forecasting": "04-Weather Forcasting",
+    "Placement Predictor": "05-Placement-Predictor",
+    "Random Joke Generator": "06-RandomJokeGenerator",
+    "Stock Profit Calculator": "07-Stock-Profit-Calculator",
+    "Amazon Clone": "08-New-AmazonClone",
+    "Blog Page": "09-Blog Page",
+    "Discord Project": "10-Discord project",
+    "Spotify Clone": "11-spotify-clone -project",
+    "E-Commerce Cart": "12-e-commerce_cart",
+    "Website Personalizer": "13-WebsitePersonalizer",
+    "Material3 Showcase": "14-Material3Showcase",
+    "Privacy Policy Generator": "15-AppPrivacyPolicyGenerator",
+    "Analog Clock": "16-AnalogClock",
+    "3D Cards": "17-3d cards",
+    "Animated Searchbar": "18-Animated Searchbar",
+    "Animated Cursor": "19-Animated-cursor",
+    "Color Palette Generator": "20-color-palette-generator",
+    "Color Palette Art Generator": "21-ColorPaletteArtGenerator",
+    "Carousel Solar System": "22-Carousel Solar System",
+    "Holo Button": "23-Holo Button",
+    "Slider Box": "24-slider box",
+    Typewriter: "25-typewriter",
+    "Virtual Piano": "26-Virtual_Piano",
+    "DSA Visualizer": "27-Data Structures Visualizer",
+    "Physics Ball Simulation": "28-PhysicsBallSimulation",
+    Pokedex: "29-Pokedex",
+    "Coin Scratch": "30-Coin Scratch",
+    "Dice Roller": "31-Dice-Roller",
+    "Dining Philosophers": "32-Dining Philosophers Simulation",
+    "Hurdle Highway": "33-Hurdle_Highway_2D",
+    "Stone Paper Scissor": "34-Stone-Paper-Scissor",
+    "Retro Highway Racer": "35-RetroHighwayRacer",
+    "Zen Timer": "36-ZEN_TIMER",
+    "Pomodoro Timer": "37-Pomodoro_Timer",
+    "Focus Room": "38-FocusRoom",
+    EchoNotes: "39-EchoNotes",
+    "Habit Tracker": "40-Habit-Tracker-Web-App",
+    "Interview Simulator": "41-InterviewSimulator",
+    "BMI Calculator": "42-BMI_Calculator",
+    "Morse Code Translator": "43-MorseCodeTranslator",
+    "GitHub Promo Maker": "44-GitHubPromoMaker",
+    "GitHub Profile Battle": "45-Github-Profile-Battle",
+    "Self Improvement": "46-Self-Improvement",
+    "Contest Tracker": "47-ContestTracker",
+    "Music App": "48-Music App",
+    "2048 Game": "49-2048_game",
+    "Image Search Engine": "50-Image Search Engine",
+  };
+
+  const folder = PROJECT_DIR_MAP[projectName] || projectName;
+  // Encode spaces and special characters for URLs
+  return `50-Days-50-Web-Projects/${encodeURIComponent(folder)}/`;
 }
 
 /* ============================================================
