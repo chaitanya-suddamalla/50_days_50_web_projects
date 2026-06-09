@@ -192,6 +192,18 @@ function getProjectDirectoryPath(projectName) {
   return `50-Days-50-Web-Projects/${encodeURIComponent(folder)}/`;
 }
 
+function getLegacyDemoUrl(projectName) {
+  const folder =
+    getProjectDirectoryPath(projectName).split("/")[1] || projectName;
+  return `https://100-days-100-web-project.vercel.app/public/${encodeURIComponent(folder)}/index.html`;
+}
+
+function getLegacyCodeUrl(projectName) {
+  const folder =
+    getProjectDirectoryPath(projectName).split("/")[1] || projectName;
+  return `https://github.com/dhairyagothi/100_days_100_web_project/tree/Main/public/${encodeURIComponent(folder)}`;
+}
+
 /* ============================================================
    LOCALSTORAGE MANAGEMENT
 ============================================================ */
@@ -325,6 +337,11 @@ function renderGrid(projects = PROJECTS) {
   sorted.forEach(([day, name, url, tags]) => {
     const category = getCategoryFromTags(tags, name);
     const bookmarked = isBookmarked(name);
+    const demoHref = url === "#" ? getLegacyDemoUrl(name) : url;
+    const codeHref =
+      url === "#"
+        ? getLegacyCodeUrl(name)
+        : `https://github.com/${window.REPO_OWNER}/${window.REPO_NAME}/tree/main/${getProjectDirectoryPath(name)}`;
 
     const card = document.createElement("div");
     card.className = "project-card";
@@ -352,7 +369,7 @@ function renderGrid(projects = PROJECTS) {
       <div class="card-footer">
         <div class="card-actions-left">
           <a
-            href="${url === "#" ? getProjectDirectoryPath(name) : url}"
+            href="${demoHref}"
             class="card-link"
             target="_blank"
           >
@@ -360,7 +377,7 @@ function renderGrid(projects = PROJECTS) {
           </a>
 
           <a
-            href="https://github.com/${window.REPO_OWNER}/${window.REPO_NAME}/tree/main/${getProjectDirectoryPath(name)}"
+            href="${codeHref}"
             target="_blank"
             class="card-link"
           >
@@ -393,6 +410,11 @@ function renderRecentProjects() {
   recentProjects.slice(0, 6).forEach(([day, name, url, tags]) => {
     const category = getCategoryFromTags(tags, name);
     const bookmarked = isBookmarked(name);
+    const demoHref = url === "#" ? getLegacyDemoUrl(name) : url;
+    const codeHref =
+      url === "#"
+        ? getLegacyCodeUrl(name)
+        : `https://github.com/${window.REPO_OWNER}/${window.REPO_NAME}/tree/main/${getProjectDirectoryPath(name)}`;
 
     const card = document.createElement("div");
     card.className = "project-card";
@@ -420,7 +442,7 @@ function renderRecentProjects() {
       <div class="card-footer">
         <div class="card-actions-left">
           <a
-            href="${url === "#" ? getProjectDirectoryPath(name) : url}"
+            href="${demoHref}"
             class="card-link"
             target="_blank"
           >
@@ -428,7 +450,7 @@ function renderRecentProjects() {
           </a>
 
           <a
-            href="https://github.com/${window.REPO_OWNER}/${window.REPO_NAME}/tree/main/${getProjectDirectoryPath(name)}"
+            href="${codeHref}"
             target="_blank"
             class="card-link"
           >
@@ -463,6 +485,11 @@ function renderBookmarkedProjects() {
 
   bookmarkedProjects.forEach(([day, name, url, tags]) => {
     const category = getCategoryFromTags(tags, name);
+    const demoHref = url === "#" ? getLegacyDemoUrl(name) : url;
+    const codeHref =
+      url === "#"
+        ? getLegacyCodeUrl(name)
+        : `https://github.com/${window.REPO_OWNER}/${window.REPO_NAME}/tree/main/${getProjectDirectoryPath(name)}`;
 
     const card = document.createElement("div");
     card.className = "project-card";
@@ -490,7 +517,7 @@ function renderBookmarkedProjects() {
       <div class="card-footer">
         <div class="card-actions-left">
           <a
-            href="${url === "#" ? getProjectDirectoryPath(name) : url}"
+            href="${demoHref}"
             class="card-link"
             target="_blank"
           >
@@ -498,7 +525,7 @@ function renderBookmarkedProjects() {
           </a>
 
           <a
-            href="https://github.com/${window.REPO_OWNER}/${window.REPO_NAME}/tree/main/${getProjectDirectoryPath(name)}"
+            href="${codeHref}"
             target="_blank"
             class="card-link"
           >
