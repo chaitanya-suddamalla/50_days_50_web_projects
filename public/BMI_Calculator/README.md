@@ -74,7 +74,7 @@ To run this sub-project locally on your machine for feature verification:
 
 *   Clone the repository and navigate to the project directory:
    ```bash
-   cd 100_days_100_web_project/public/BMI_Calculator/ 
+   cd 50-days-50-web-projects/public/BMI_Calculator/ 
    ```
 *   Open index.html inside your browser of choice.
 

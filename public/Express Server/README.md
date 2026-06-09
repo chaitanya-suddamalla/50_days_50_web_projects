@@ -4,7 +4,7 @@ A lightweight and modular backend server built with **Node.js** and **Express.js
 
 This project demonstrates the fundamentals of backend development using Express.js, including routing, middleware, controller-based architecture, environment configuration, centralized response handling, and REST API development.
 
-> Part of the **100 Days 100 Web Projects** collection.
+> Part of the **50 Days 50 Web Projects** collection.
 
 ---
 
@@ -12,15 +12,15 @@ This project demonstrates the fundamentals of backend development using Express.
 
 ### Main Repository
 
-https://github.com/dhairyagothi/100_days_100_web_project
+https://github.com/dhairyagothi/50-days-50-web-projects
 
 ### Project Showcase
 
-https://100-days-100-web-project.vercel.app/
+https://50-days-50-web-project.vercel.app/
 
 ### Express Server Directory
 
-https://github.com/dhairyagothi/100_days_100_web_project/tree/Main/public/Express%20Server
+https://github.com/dhairyagothi/50-days-50-web-projects/tree/Main/public/Express%20Server
 
 ---
 
@@ -108,7 +108,7 @@ Express Server/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/dhairyagothi/100_days_100_web_project.git
+git clone https://github.com/dhairyagothi/50-days-50-web-projects.git
 ```
 
 ### Navigate to Express Server
@@ -354,4 +354,4 @@ Contributions are welcome.
 
 ### ⭐ If you find this project useful, consider starring the repository:
 
-https://github.com/dhairyagothi/100_days_100_web_project
+https://github.com/dhairyagothi/50-days-50-web-projects

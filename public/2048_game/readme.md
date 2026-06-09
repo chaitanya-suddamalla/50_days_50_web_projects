@@ -4,11 +4,11 @@
 
 **A fully redesigned and feature-rich version of the classic 2048 tile puzzle game.**
 
-[![GSSoC 2026](https://img.shields.io/badge/GSSoC-2026-F96F36?style=for-the-badge&logo=girlscript)](https://gssoc.girlscript.org/projects/dhairyagothi%2F100_days_100_web_project)
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/ananyajoshi-cseai/100_days_100_web_project/tree/Main/public/2048_game)
-[![Play Live](https://img.shields.io/badge/Play-Live_Demo-00C7B7?style=for-the-badge&logo=vercel)](https://100-days-100-web-project.vercel.app/public/2048_game/index.html)
+[![GSSoC 2026](https://img.shields.io/badge/GSSoC-2026-F96F36?style=for-the-badge&logo=girlscript)](https://gssoc.girlscript.org/projects/dhairyagothi%2F50-days-50-web-projects)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/ananyajoshi-cseai/50-days-50-web-projects/tree/Main/public/2048_game)
+[![Play Live](https://img.shields.io/badge/Play-Live_Demo-00C7B7?style=for-the-badge&logo=vercel)](https://50-days-50-web-project.vercel.app/public/2048_game/index.html)
 
-### 🚀 [Play the Live Game Here](https://100-days-100-web-project.vercel.app/public/2048_game/index.html)
+### 🚀 [Play the Live Game Here](https://50-days-50-web-project.vercel.app/public/2048_game/index.html)
 
 </div>
 

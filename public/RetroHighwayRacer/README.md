@@ -16,8 +16,8 @@ An endless 2D highway racing game featuring an interactive dashboard console, sm
 
 ## Installation/Setup
 1. Fork this repository.
-2. Clone the repository locally: `git clone https://github.com/poorvi-2026/100_days_100_web_project.git`
-3. Navigate to the project directory: `cd 100_days_100_web_project/public/RetroHighwayRacer/`
+2. Clone the repository locally: `git clone https://github.com/poorvi-2026/50-days-50-web-projects.git`
+3. Navigate to the project directory: `cd 50-days-50-web-projects/public/RetroHighwayRacer/`
 
 ## Usage
 1. Open the `index.html` file directly in any modern web browser (or run via VS Code Live Server).

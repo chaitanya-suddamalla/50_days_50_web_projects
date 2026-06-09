@@ -27,7 +27,7 @@ A responsive blog page built with **HTML**, **Tailwind CSS**, and **vanilla Java
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/dhairyagothi/100_days_100_web_project.git
+   git clone https://github.com/dhairyagothi/50-days-50-web-projects.git
    ```
 2. Navigate to the project:
    ```bash
@@ -55,4 +55,4 @@ Contributions are welcome; see the root [CONTRIBUTING.md](../../CONTRIBUTING.md)
 
 ## License
 
-Part of [100 Days 100 Web Projects](https://github.com/dhairyagothi/100_days_100_web_project) — MIT License.
+Part of [50 Days 50 Web Projects](https://github.com/dhairyagothi/50-days-50-web-projects) — MIT License.

@@ -71,7 +71,7 @@ The project uses local fallback arrays defined in `script.js` for:
 ## Notes
 
 - The project is fully contained in `public/AstronomyDashboard/` and uses static web assets.
-- It is designed to work as part of the larger `100_days_100_web_project-1` collection.
+- It is designed to work as part of the larger `50-days-50-web-projects-1` collection.
 - The page uses browser-native `fetch()` calls and dynamic DOM updates for interactivity.
 
 ## Screenshots
@@ -86,7 +86,7 @@ The project uses local fallback arrays defined in `script.js` for:
 
 ## Contribution Context
 
-This project is part of the GSSoC initiative and the `100 Days 100 Web Projects` collection. It was developed to contribute an interactive and educational astronomy experience that aligns with the repository's goal of showcasing creative web experiments.
+This project is part of the GSSoC initiative and the `50 Days 50 Web Projects` collection. It was developed to contribute an interactive and educational astronomy experience that aligns with the repository's goal of showcasing creative web experiments.
 
 ## Author
 

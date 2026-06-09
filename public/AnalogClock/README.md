@@ -60,15 +60,15 @@ Clock hands update automatically according to your system time.
 
 ## 🌐 Demo & Repository
 
-🔗 Live Demo: [https://100-days-100-web-project.vercel.app/public/AnalogClock/index.html](https://100-days-100-web-project.vercel.app/public/AnalogClock/index.html)
+🔗 Live Demo: [https://50-days-50-web-project.vercel.app/public/AnalogClock/index.html](https://50-days-50-web-project.vercel.app/public/AnalogClock/index.html)
 
-🔗 GitHub Repository: [https://github.com/dhairyagothi/100_days_100_web_project/tree/Main/public/AnalogClock](https://github.com/dhairyagothi/100_days_100_web_project/tree/Main/public/AnalogClock)
+🔗 GitHub Repository: [https://github.com/dhairyagothi/50-days-50-web-projects/tree/Main/public/AnalogClock](https://github.com/dhairyagothi/50-days-50-web-projects/tree/Main/public/AnalogClock)
 
 
 ### Clone Repository
 
 ```bash
-git clone https://github.com/dhairyagothi/100_days_100_web_project/tree/Main/public/AnalogClock.git
+git clone https://github.com/dhairyagothi/50-days-50-web-projects/tree/Main/public/AnalogClock.git
 ```
 
 ---
@@ -89,7 +89,7 @@ This project works smoothly across multiple devices:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/dhairyagothi/100_days_100_web_project/tree/Main/public/AnalogClock.git
+git clone https://github.com/dhairyagothi/50-days-50-web-projects/tree/Main/public/AnalogClock.git
 ```
 
 

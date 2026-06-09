@@ -18,14 +18,14 @@ A small web app that lets two GitHub users "battle" by comparing public profile 
 
 ## Demo
 
-[View Demo](https://100-days-100-web-project.vercel.app/public/Github-Profile-Battle/index.html)
+[View Demo](https://50-days-50-web-project.vercel.app/public/Github-Profile-Battle/index.html)
 
 ## How to Run Locally
 
 1. Clone the repository (if you haven't already):
 
    ```bash
-   git clone https://github.com/dhairyagothi/100_days_100_web_project.git
+   git clone https://github.com/dhairyagothi/50-days-50-web-projects.git
    ```
 
 2. Open the project folder in your browser:

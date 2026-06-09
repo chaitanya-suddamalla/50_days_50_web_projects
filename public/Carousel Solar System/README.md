@@ -82,12 +82,12 @@ Carousel-Solar-System/
 
 ## 🌐 Demo & Repository
 
-🔗 Live Demo: [https://100-days-100-web-project-5sit.vercel.app/](https://100-days-100-web-project-5sit.vercel.app/)
+🔗 Live Demo: [https://50-days-50-web-project-5sit.vercel.app/](https://50-days-50-web-project-5sit.vercel.app/)
 
-🔗 GitHub Repository: [https://github.com/dhairyagothi/100_days_100_web_project/tree/Main/public/Carousel%20Solar%20System](https://github.com/dhairyagothi/100_days_100_web_project/tree/Main/public/Carousel%20Solar%20System)
+🔗 GitHub Repository: [https://github.com/dhairyagothi/50-days-50-web-projects/tree/Main/public/Carousel%20Solar%20System](https://github.com/dhairyagothi/50-days-50-web-projects/tree/Main/public/Carousel%20Solar%20System)
 
 ```bash
-git https://github.com/dhairyagothi/100_days_100_web_project/tree/Main/public/Carousel%20Solar%20System.git
+git https://github.com/dhairyagothi/50-days-50-web-projects/tree/Main/public/Carousel%20Solar%20System.git
 ```
 
 ---
@@ -109,22 +109,22 @@ The website works smoothly on:
 
    - **My Fork (with updated README and Code):**
      ```bash
-     git clone https://github.com/gayatridot/100_days_100_web_project.git
+     git clone https://github.com/gayatridot/50-days-50-web-projects.git
      ```
      Navigate to:
-     [Carousel Solar System (Fork)](https://github.com/gayatridot/100_days_100_web_project/tree/fix/carousel-solar-system/public/Carousel%20Solar%20System)
+     [Carousel Solar System (Fork)](https://github.com/gayatridot/50-days-50-web-projects/tree/fix/carousel-solar-system/public/Carousel%20Solar%20System)
 
    - **Upstream Maintainer’s Repo:**
      ```bash
-     git clone https://github.com/dhairyagothi/100_days_100_web_project.git
+     git clone https://github.com/dhairyagothi/50-days-50-web-projects.git
      ```
      Navigate to:
-     [Carousel Solar System (Upstream)](https://github.com/dhairyagothi/100_days_100_web_project/tree/Main/public/Carousel%20Solar%20System)
+     [Carousel Solar System (Upstream)](https://github.com/dhairyagothi/50-days-50-web-projects/tree/Main/public/Carousel%20Solar%20System)
 
 2. Open the project folder.  
 3. Open `index.html` in your browser.  
 4. Explore the Solar System 🚀  
-5. (Optional) Try the **Live Demo**: [Solar System Carousel](https://100-days-100-web-project-5sit.vercel.app/)
+5. (Optional) Try the **Live Demo**: [Solar System Carousel](https://50-days-50-web-project-5sit.vercel.app/)
 
 ---
 

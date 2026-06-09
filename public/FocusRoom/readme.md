@@ -69,12 +69,12 @@ FocusRoom/
 1. Download or clone this repository
 
 ```bash
-git clone https://github.com/Ras0105/100_days_100_web_project.git
+git clone https://github.com/Ras0105/50-days-50-web-projects.git
 ```
 
 2. Open the project folder
 ```bash
-cd 100_days_100_web_project
+cd 50-days-50-web-projects
 ```
 3. Navigate to the `public/FocusRoom` directory
 ```bash
@@ -92,7 +92,7 @@ Note: If your project folder name is different from `FocusRoom`, replace it with
 This project is part of the original repository created by Dhairya Gothi.
 
 Original Repository:
-https://github.com/dhairyagothi/100_days_100_web_project
+https://github.com/dhairyagothi/50-days-50-web-projects
 ## 📸 Screenshots
 
 Add screenshots of your project here.

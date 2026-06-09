@@ -14,7 +14,7 @@
     "api",
     "server"
   ],
-  "author": "100 Days 100 Web Projects",
+  "author": "50 Days 50 Web Projects",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^16.4.5",

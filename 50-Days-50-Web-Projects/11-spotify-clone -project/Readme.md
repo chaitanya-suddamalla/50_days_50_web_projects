@@ -68,4 +68,4 @@ Add screenshots here after running the project
 ## Acknowledgments
 
 - Inspired by Spotify's web player design
-- Part of 100 Days 100 Web Projects challenge
+- Part of 50 Days 50 Web Projects challenge

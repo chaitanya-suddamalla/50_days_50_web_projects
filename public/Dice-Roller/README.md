@@ -92,4 +92,4 @@ Dice-Roller/
 
 ## 🙌 Part of
 
-[100 Days 100 Web Projects](https://github.com/dhairyagothi/100_days_100_web_project) — GSSoC 2026
+[50 Days 50 Web Projects](https://github.com/dhairyagothi/50-days-50-web-projects) — GSSoC 2026
