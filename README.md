@@ -4,7 +4,7 @@
 
 ![50 Days 50 Projects Banner](https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&weight=700&pause=1000&color=0FF26C&center=true&width=800&lines=50+Days+50+Web+Projects;Learn+%26+Build+Practical+Projects;HTML+%7C+CSS+%7C+JavaScript)
 
-[GitHub Profile](https://github.com/chaitanya-suddamalla) â€¢ Live Demo: https://50-days-50-web-projects.vercel.app
+[GitHub Profile](https://github.com/chaitanya-suddamalla) Live Demo: https://50-days-50-web-projects.vercel.app
 
 </div>
 
@@ -29,7 +29,7 @@ Welcome to **50 Days 50 Web Projects** — a curated collection of fifty practic
 
 Live demos are available at: https://50-days-50-web-projects.vercel.app
 
-## ðŸ“š Projects (50 Total)
+## Projects (50 Total)
 
 The table below lists the fifty projects included in this repository. Each project can be viewed from the deployed site above or by opening its folder under `/public`.
 
