@@ -133,75 +133,74 @@ function getSourceUrl(url) {
 }
 
 function getProjectDirectoryPath(projectName) {
-  // Map friendly project names to actual folder names in the repository
+  // Map friendly project names to the actual public folder names in this repo
   const PROJECT_DIR_MAP = {
-    "To-Do List": "01-To-Do-List",
-    "AI Image Classifier": "02-AI Image Classifier",
-    "Astronomy Dashboard": "03-AstronomyDashboard",
-    "Weather Forecasting": "04-Weather Forcasting",
-    "Placement Predictor": "05-Placement-Predictor",
-    "Random Joke Generator": "06-RandomJokeGenerator",
-    "Stock Profit Calculator": "07-Stock-Profit-Calculator",
-    "Amazon Clone": "08-New-AmazonClone",
-    "Blog Page": "09-Blog Page",
-    "Discord Project": "10-Discord project",
-    "Spotify Clone": "11-spotify-clone -project",
-    "E-Commerce Cart": "12-e-commerce_cart",
-    "Website Personalizer": "13-WebsitePersonalizer",
-    "Material3 Showcase": "14-Material3Showcase",
-    "Privacy Policy Generator": "15-AppPrivacyPolicyGenerator",
-    "Analog Clock": "16-AnalogClock",
-    "3D Cards": "17-3d cards",
-    "Animated Searchbar": "18-Animated Searchbar",
-    "Animated Cursor": "19-Animated-cursor",
-    "Color Palette Generator": "20-color-palette-generator",
-    "Color Palette Art Generator": "21-ColorPaletteArtGenerator",
-    "Carousel Solar System": "22-Carousel Solar System",
-    "Holo Button": "23-Holo Button",
-    "Slider Box": "24-slider box",
-    Typewriter: "25-typewriter",
-    "Virtual Piano": "26-Virtual_Piano",
-    "DSA Visualizer": "27-Data Structures Visualizer",
-    "Physics Ball Simulation": "28-PhysicsBallSimulation",
-    Pokedex: "29-Pokedex",
-    "Coin Scratch": "30-Coin Scratch",
-    "Dice Roller": "31-Dice-Roller",
-    "Dining Philosophers": "32-Dining Philosophers Simulation",
-    "Hurdle Highway": "33-Hurdle_Highway_2D",
-    "Stone Paper Scissor": "34-Stone-Paper-Scissor",
-    "Retro Highway Racer": "35-RetroHighwayRacer",
-    "Zen Timer": "36-ZEN_TIMER",
-    "Pomodoro Timer": "37-Pomodoro_Timer",
-    "Focus Room": "38-FocusRoom",
-    EchoNotes: "39-EchoNotes",
-    "Habit Tracker": "40-Habit-Tracker-Web-App",
-    "Interview Simulator": "41-InterviewSimulator",
-    "BMI Calculator": "42-BMI_Calculator",
-    "Morse Code Translator": "43-MorseCodeTranslator",
-    "GitHub Promo Maker": "44-GitHubPromoMaker",
-    "GitHub Profile Battle": "45-Github-Profile-Battle",
-    "Self Improvement": "46-Self-Improvement",
-    "Contest Tracker": "47-ContestTracker",
-    "Music App": "48-Music App",
-    "2048 Game": "49-2048_game",
-    "Image Search Engine": "50-Image Search Engine",
+    "To-Do List": "TO_DO_LIST",
+    "AI Image Classifier": "AI Image Classifier",
+    "Astronomy Dashboard": "AstronomyDashboard",
+    "Weather Forecasting": "Weather Forcasting",
+    "Placement Predictor": "Placement-Predictor",
+    "Random Joke Generator": "RandomJokeGenerator",
+    "Stock Profit Calculator": "Stock-Profit-Calculator",
+    "Amazon Clone": "New-AmazonClone",
+    "Blog Page": "Blog Page",
+    "Discord Project": "Discord project",
+    "Spotify Clone": "spotify-clone -project",
+    "E-Commerce Cart": "e-commerce_cart",
+    "Website Personalizer": "WebsitePersonalizer",
+    "Material3 Showcase": "Material3Showcase",
+    "Privacy Policy Generator": "AppPrivacyPolicyGenerator",
+    "Analog Clock": "AnalogClock",
+    "3D Cards": "3d cards",
+    "Animated Searchbar": "Animated Searchbar",
+    "Animated Cursor": "Animated-cursor",
+    "Color Palette Generator": "color-palette-generator",
+    "Color Palette Art Generator": "ColorPaletteArtGenerator",
+    "Carousel Solar System": "Carousel Solar System",
+    "Holo Button": "Holo Button",
+    "Slider Box": "slider box",
+    Typewriter: "typewriter",
+    "Virtual Piano": "Virtual_Piano",
+    "DSA Visualizer": "Data Structures Visualizer",
+    "Physics Ball Simulation": "PhysicsBallSimulation",
+    Pokedex: "Pokedex",
+    "Coin Scratch": "Coin Scratch",
+    "Dice Roller": "Dice-Roller",
+    "Dining Philosophers": "Dining Philosophers Simulation",
+    "Hurdle Highway": "Hurdle_Highway_2D",
+    "Stone Paper Scissor": "Stone-Paper-Scissor",
+    "Retro Highway Racer": "RetroHighwayRacer",
+    "Zen Timer": "ZEN_TIMER",
+    "Pomodoro Timer": "Pomodoro_Timer",
+    "Focus Room": "FocusRoom",
+    EchoNotes: "EchoNotes",
+    "Habit Tracker": "Habit-Tracker-Web-App",
+    "Interview Simulator": "InterviewSimulator",
+    "BMI Calculator": "BMI_Calculator",
+    "Morse Code Translator": "MorseCodeTranslator",
+    "GitHub Promo Maker": "GitHubPromoMaker",
+    "GitHub Profile Battle": "Github-Profile-Battle",
+    "Self Improvement": "Self-Improvement",
+    "Contest Tracker": "ContestTracker",
+    "Music App": "Music App",
+    "2048 Game": "2048_game",
+    "Image Search Engine": "Image Search Engine",
   };
 
   const folder = PROJECT_DIR_MAP[projectName] || projectName;
-  // Encode spaces and special characters for URLs
-  return `50-Days-50-Web-Projects/${encodeURIComponent(folder)}/`;
+  return `public/${encodeURIComponent(folder)}/`;
 }
 
-function getLegacyDemoUrl(projectName) {
-  const folder =
-    getProjectDirectoryPath(projectName).split("/")[1] || projectName;
-  return `https://100-days-100-web-project.vercel.app/public/${encodeURIComponent(folder)}/index.html`;
+function getProjectDemoUrl(projectName) {
+  const path = `${getProjectDirectoryPath(projectName)}index.html`;
+  if (window.location.protocol === "file:") {
+    return path;
+  }
+  return `${window.location.origin}/${path}`;
 }
 
-function getLegacyCodeUrl(projectName) {
-  const folder =
-    getProjectDirectoryPath(projectName).split("/")[1] || projectName;
-  return `https://github.com/dhairyagothi/100_days_100_web_project/tree/Main/public/${encodeURIComponent(folder)}`;
+function getProjectCodeUrl(projectName) {
+  return `https://github.com/${window.REPO_OWNER}/${window.REPO_NAME}/tree/main/${getProjectDirectoryPath(projectName)}`;
 }
 
 /* ============================================================
@@ -337,11 +336,8 @@ function renderGrid(projects = PROJECTS) {
   sorted.forEach(([day, name, url, tags]) => {
     const category = getCategoryFromTags(tags, name);
     const bookmarked = isBookmarked(name);
-    const demoHref = url === "#" ? getLegacyDemoUrl(name) : url;
-    const codeHref =
-      url === "#"
-        ? getLegacyCodeUrl(name)
-        : `https://github.com/${window.REPO_OWNER}/${window.REPO_NAME}/tree/main/${getProjectDirectoryPath(name)}`;
+    const demoHref = url === "#" ? getProjectDemoUrl(name) : url;
+    const codeHref = getProjectCodeUrl(name);
 
     const card = document.createElement("div");
     card.className = "project-card";
@@ -410,11 +406,8 @@ function renderRecentProjects() {
   recentProjects.slice(0, 6).forEach(([day, name, url, tags]) => {
     const category = getCategoryFromTags(tags, name);
     const bookmarked = isBookmarked(name);
-    const demoHref = url === "#" ? getLegacyDemoUrl(name) : url;
-    const codeHref =
-      url === "#"
-        ? getLegacyCodeUrl(name)
-        : `https://github.com/${window.REPO_OWNER}/${window.REPO_NAME}/tree/main/${getProjectDirectoryPath(name)}`;
+    const demoHref = url === "#" ? getProjectDemoUrl(name) : url;
+    const codeHref = getProjectCodeUrl(name);
 
     const card = document.createElement("div");
     card.className = "project-card";
@@ -485,11 +478,8 @@ function renderBookmarkedProjects() {
 
   bookmarkedProjects.forEach(([day, name, url, tags]) => {
     const category = getCategoryFromTags(tags, name);
-    const demoHref = url === "#" ? getLegacyDemoUrl(name) : url;
-    const codeHref =
-      url === "#"
-        ? getLegacyCodeUrl(name)
-        : `https://github.com/${window.REPO_OWNER}/${window.REPO_NAME}/tree/main/${getProjectDirectoryPath(name)}`;
+    const demoHref = url === "#" ? getProjectDemoUrl(name) : url;
+    const codeHref = getProjectCodeUrl(name);
 
     const card = document.createElement("div");
     card.className = "project-card";

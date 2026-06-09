@@ -4,7 +4,7 @@
 
 ![50 Days 50 Projects Banner](https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&weight=700&pause=1000&color=0FF26C&center=true&width=800&lines=50+Days+50+Web+Projects;Learn+%26+Build+Practical+Projects;HTML+%7C+CSS+%7C+JavaScript)
 
-[GitHub Profile](https://github.com/chaitanya-suddamalla) • Live Demo: Coming Soon
+[GitHub Profile](https://github.com/chaitanya-suddamalla) â€¢ Live Demo: https://50-days-50-web-projects.vercel.app
 
 </div>
 
@@ -27,64 +27,64 @@ Welcome to **50 Days 50 Web Projects** — a curated collection of fifty practic
 
 ## 🚀 Live Demo
 
-Live Demo: Coming Soon
+Live demos are available at: https://50-days-50-web-projects.vercel.app
 
-## 📚 Projects (50 Total)
+## ðŸ“š Projects (50 Total)
 
-The table below lists the fifty projects included in this repository. Demo links are not yet published and will be updated when available.
+The table below lists the fifty projects included in this repository. Each project can be viewed from the deployed site above or by opening its folder under `/public`.
 
-| Day | Project Name                   | Technologies          | Type          | Demo                   |
-| --- | ------------------------------ | --------------------- | ------------- | ---------------------- |
-| 1   | To-Do List                     | HTML, CSS, JavaScript | Utility       | Live Demo: Coming Soon |
-| 2   | AI Image Classifier            | JavaScript, API       | AI / Tool     | Live Demo: Coming Soon |
-| 3   | Astronomy Dashboard            | HTML, CSS, JavaScript | Dashboard     | Live Demo: Coming Soon |
-| 4   | Weather Forecasting            | HTML, CSS, JavaScript | App           | Live Demo: Coming Soon |
-| 5   | Placement Predictor            | JavaScript            | Utility       | Live Demo: Coming Soon |
-| 6   | Random Joke Generator          | HTML, CSS, JavaScript | Entertainment | Live Demo: Coming Soon |
-| 7   | Stock Profit Calculator        | JavaScript            | Finance Tool  | Live Demo: Coming Soon |
-| 8   | New Amazon Clone               | HTML, CSS, JavaScript | Clone         | Live Demo: Coming Soon |
-| 9   | Blog Page                      | HTML, CSS, JavaScript | Website       | Live Demo: Coming Soon |
-| 10  | Discord Project                | HTML, CSS, JavaScript | App           | Live Demo: Coming Soon |
-| 11  | Spotify Clone                  | HTML, CSS, JavaScript | Clone         | Live Demo: Coming Soon |
-| 12  | E-commerce Cart                | HTML, CSS, JavaScript | E-commerce    | Live Demo: Coming Soon |
-| 13  | Website Personalizer           | HTML, CSS, JavaScript | Utility       | Live Demo: Coming Soon |
-| 14  | Material3 Showcase             | JavaScript            | UI Showcase   | Live Demo: Coming Soon |
-| 15  | App Privacy Policy Generator   | JavaScript            | Tool          | Live Demo: Coming Soon |
-| 16  | Analog Clock                   | HTML, CSS, JavaScript | Widget        | Live Demo: Coming Soon |
-| 17  | 3D Cards                       | HTML, CSS, JavaScript | UI / 3D       | Live Demo: Coming Soon |
-| 18  | Animated Searchbar             | HTML, CSS, JavaScript | UI Component  | Live Demo: Coming Soon |
-| 19  | Animated Cursor                | HTML, CSS, JavaScript | UI Effect     | Live Demo: Coming Soon |
-| 20  | Color Palette Generator        | HTML, CSS, JavaScript | Utility       | Live Demo: Coming Soon |
-| 21  | Color Palette Art Generator    | HTML, CSS, JavaScript | Art Tool      | Live Demo: Coming Soon |
-| 22  | Carousel Solar System          | HTML, CSS, JavaScript | Animation     | Live Demo: Coming Soon |
-| 23  | Holo Button                    | HTML, CSS, JavaScript | UI Component  | Live Demo: Coming Soon |
-| 24  | Slider Box                     | HTML, CSS, JavaScript | UI Component  | Live Demo: Coming Soon |
-| 25  | Typewriter Effect              | HTML, CSS, JavaScript | UI Effect     | Live Demo: Coming Soon |
-| 26  | Virtual Piano                  | HTML, CSS, JavaScript | Music App     | Live Demo: Coming Soon |
-| 27  | Data Structures Visualizer     | JavaScript            | Visualizer    | Live Demo: Coming Soon |
-| 28  | Physics Ball Simulation        | JavaScript, Canvas    | Simulation    | Live Demo: Coming Soon |
-| 29  | Pokedex                        | HTML, CSS, JavaScript | Utility       | Live Demo: Coming Soon |
-| 30  | Coin Scratch                   | HTML, CSS, JavaScript | Game          | Live Demo: Coming Soon |
-| 31  | Dice Roller                    | HTML, CSS, JavaScript | Game          | Live Demo: Coming Soon |
-| 32  | Dining Philosophers Simulation | JavaScript            | Simulation    | Live Demo: Coming Soon |
-| 33  | Hurdle Highway 2D              | JavaScript            | Game          | Live Demo: Coming Soon |
-| 34  | Stone Paper Scissor            | JavaScript            | Game          | Live Demo: Coming Soon |
-| 35  | Retro Highway Racer            | JavaScript            | Game          | Live Demo: Coming Soon |
-| 36  | ZEN TIMER                      | HTML, CSS, JavaScript | Productivity  | Live Demo: Coming Soon |
-| 37  | Pomodoro Timer                 | HTML, CSS, JavaScript | Productivity  | Live Demo: Coming Soon |
-| 38  | FocusRoom                      | HTML, CSS, JavaScript | Productivity  | Live Demo: Coming Soon |
-| 39  | EchoNotes                      | HTML, CSS, JavaScript | Notes App     | Live Demo: Coming Soon |
-| 40  | Habit Tracker Web App          | HTML, CSS, JavaScript | Productivity  | Live Demo: Coming Soon |
-| 41  | Interview Simulator            | JavaScript            | Tool          | Live Demo: Coming Soon |
-| 42  | BMI Calculator                 | HTML, CSS, JavaScript | Utility       | Live Demo: Coming Soon |
-| 43  | Morse Code Translator          | HTML, CSS, JavaScript | Utility       | Live Demo: Coming Soon |
-| 44  | GitHub Promo Maker             | HTML, CSS, JavaScript | Tool          | Live Demo: Coming Soon |
-| 45  | GitHub Profile Battle          | JavaScript            | Tool          | Live Demo: Coming Soon |
-| 46  | Self-Improvement               | HTML, CSS, JavaScript | Utility       | Live Demo: Coming Soon |
-| 47  | Contest Tracker                | JavaScript            | Tracker       | Live Demo: Coming Soon |
-| 48  | Music App                      | HTML, CSS, JavaScript | App           | Live Demo: Coming Soon |
-| 49  | 2048 Game                      | HTML, CSS, JavaScript | Game          | Live Demo: Coming Soon |
-| 50  | Image Search Engine            | HTML, CSS, JavaScript | Search Tool   | Live Demo: Coming Soon |
+| Day | Project Name                   | Technologies          | Type          | Demo                  |
+| --- | ------------------------------ | --------------------- | ------------- | --------------------- |
+| 1   | To-Do List                     | HTML, CSS, JavaScript | Utility       | View on deployed site |
+| 2   | AI Image Classifier            | JavaScript, API       | AI / Tool     | View on deployed site |
+| 3   | Astronomy Dashboard            | HTML, CSS, JavaScript | Dashboard     | View on deployed site |
+| 4   | Weather Forecasting            | HTML, CSS, JavaScript | App           | View on deployed site |
+| 5   | Placement Predictor            | JavaScript            | Utility       | View on deployed site |
+| 6   | Random Joke Generator          | HTML, CSS, JavaScript | Entertainment | View on deployed site |
+| 7   | Stock Profit Calculator        | JavaScript            | Finance Tool  | View on deployed site |
+| 8   | New Amazon Clone               | HTML, CSS, JavaScript | Clone         | View on deployed site |
+| 9   | Blog Page                      | HTML, CSS, JavaScript | Website       | View on deployed site |
+| 10  | Discord Project                | HTML, CSS, JavaScript | App           | View on deployed site |
+| 11  | Spotify Clone                  | HTML, CSS, JavaScript | Clone         | View on deployed site |
+| 12  | E-commerce Cart                | HTML, CSS, JavaScript | E-commerce    | View on deployed site |
+| 13  | Website Personalizer           | HTML, CSS, JavaScript | Utility       | View on deployed site |
+| 14  | Material3 Showcase             | JavaScript            | UI Showcase   | View on deployed site |
+| 15  | App Privacy Policy Generator   | JavaScript            | Tool          | View on deployed site |
+| 16  | Analog Clock                   | HTML, CSS, JavaScript | Widget        | View on deployed site |
+| 17  | 3D Cards                       | HTML, CSS, JavaScript | UI / 3D       | View on deployed site |
+| 18  | Animated Searchbar             | HTML, CSS, JavaScript | UI Component  | View on deployed site |
+| 19  | Animated Cursor                | HTML, CSS, JavaScript | UI Effect     | View on deployed site |
+| 20  | Color Palette Generator        | HTML, CSS, JavaScript | Utility       | View on deployed site |
+| 21  | Color Palette Art Generator    | HTML, CSS, JavaScript | Art Tool      | View on deployed site |
+| 22  | Carousel Solar System          | HTML, CSS, JavaScript | Animation     | View on deployed site |
+| 23  | Holo Button                    | HTML, CSS, JavaScript | UI Component  | View on deployed site |
+| 24  | Slider Box                     | HTML, CSS, JavaScript | UI Component  | View on deployed site |
+| 25  | Typewriter Effect              | HTML, CSS, JavaScript | UI Effect     | View on deployed site |
+| 26  | Virtual Piano                  | HTML, CSS, JavaScript | Music App     | View on deployed site |
+| 27  | Data Structures Visualizer     | JavaScript            | Visualizer    | View on deployed site |
+| 28  | Physics Ball Simulation        | JavaScript, Canvas    | Simulation    | View on deployed site |
+| 29  | Pokedex                        | HTML, CSS, JavaScript | Utility       | View on deployed site |
+| 30  | Coin Scratch                   | HTML, CSS, JavaScript | Game          | View on deployed site |
+| 31  | Dice Roller                    | HTML, CSS, JavaScript | Game          | View on deployed site |
+| 32  | Dining Philosophers Simulation | JavaScript            | Simulation    | View on deployed site |
+| 33  | Hurdle Highway 2D              | JavaScript            | Game          | View on deployed site |
+| 34  | Stone Paper Scissor            | JavaScript            | Game          | View on deployed site |
+| 35  | Retro Highway Racer            | JavaScript            | Game          | View on deployed site |
+| 36  | ZEN TIMER                      | HTML, CSS, JavaScript | Productivity  | View on deployed site |
+| 37  | Pomodoro Timer                 | HTML, CSS, JavaScript | Productivity  | View on deployed site |
+| 38  | FocusRoom                      | HTML, CSS, JavaScript | Productivity  | View on deployed site |
+| 39  | EchoNotes                      | HTML, CSS, JavaScript | Notes App     | View on deployed site |
+| 40  | Habit Tracker Web App          | HTML, CSS, JavaScript | Productivity  | View on deployed site |
+| 41  | Interview Simulator            | JavaScript            | Tool          | View on deployed site |
+| 42  | BMI Calculator                 | HTML, CSS, JavaScript | Utility       | View on deployed site |
+| 43  | Morse Code Translator          | HTML, CSS, JavaScript | Utility       | View on deployed site |
+| 44  | GitHub Promo Maker             | HTML, CSS, JavaScript | Tool          | View on deployed site |
+| 45  | GitHub Profile Battle          | JavaScript            | Tool          | View on deployed site |
+| 46  | Self-Improvement               | HTML, CSS, JavaScript | Utility       | View on deployed site |
+| 47  | Contest Tracker                | JavaScript            | Tracker       | View on deployed site |
+| 48  | Music App                      | HTML, CSS, JavaScript | App           | View on deployed site |
+| 49  | 2048 Game                      | HTML, CSS, JavaScript | Game          | View on deployed site |
+| 50  | Image Search Engine            | HTML, CSS, JavaScript | Search Tool   | View on deployed site |
 
 ## Getting Started
 
