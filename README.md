@@ -35,7 +35,7 @@ The table below lists the fifty projects included in this repository. Each proje
 
 | Day | Project Name                   | Technologies          | Type          | Live Demo             |
 | --- | ------------------------------ | --------------------- | ------------- | --------------------- |
-| 1 | To-Do List | HTML, CSS, JavaScript | Utility | [Live demo](https://50-days-50-web-projects.vercel.app/public/TO_DO_LIST/index.html) |
+| 1 | To-Do List | HTML, CSS, JavaScript | Utility | [Live demo](http://127.0.0.1:5501/public/TO_DO_LIST/todolist.html) |
 | 2 | AI Image Classifier | JavaScript, API | AI / Tool | [Live demo](https://50-days-50-web-projects.vercel.app/public/AI%20Image%20Classifier/index.html) |
 | 3 | Astronomy Dashboard | HTML, CSS, JavaScript | Dashboard | [Live demo](https://50-days-50-web-projects.vercel.app/public/AstronomyDashboard/index.html) |
 | 4 | Weather Forecasting | HTML, CSS, JavaScript | App | [Live demo](https://50-days-50-web-projects.vercel.app/public/Weather%20Forcasting/index.html) |
