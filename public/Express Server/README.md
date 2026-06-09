@@ -16,7 +16,7 @@ https://github.com/dhairyagothi/50-days-50-web-projects
 
 ### Project Showcase
 
-https://50-days-50-web-project.vercel.app/
+https://50-days-50-web-projects.vercel.app/
 
 ### Express Server Directory
 

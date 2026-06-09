@@ -60,7 +60,7 @@ Clock hands update automatically according to your system time.
 
 ## 🌐 Demo & Repository
 
-🔗 Live Demo: [https://50-days-50-web-project.vercel.app/public/AnalogClock/index.html](https://50-days-50-web-project.vercel.app/public/AnalogClock/index.html)
+🔗 Live Demo: [https://50-days-50-web-projects.vercel.app/public/AnalogClock/index.html](https://50-days-50-web-projects.vercel.app/public/AnalogClock/index.html)
 
 🔗 GitHub Repository: [https://github.com/dhairyagothi/50-days-50-web-projects/tree/Main/public/AnalogClock](https://github.com/dhairyagothi/50-days-50-web-projects/tree/Main/public/AnalogClock)
 

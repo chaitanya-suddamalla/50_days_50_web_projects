@@ -121,14 +121,14 @@ readme_path = root / 'README.md'
 readme = readme_path.read_text(encoding='utf-8')
 readme = readme.replace('# 🚀 50 Days 50 Web Projects', '# 🚀 50 Days 50 Web Projects')
 readme = readme.replace('Welcome to **50 Days 50 Web Projects**! This is a comprehensive collection of **112+ web development projects** ranging from beginner to intermediate level. Our goal is to help developers learn and practice web development through hands-on projects using various technologies.', 'Welcome to **50 Days 50 Web Projects**! This is a curated collection of **50 professional web development projects** selected for portfolio-ready deployment. Each project is focused on clean UI, responsive behavior, and recruiter-friendly functionality.')
-readme = readme.replace('**🌐 Visit the Live Website:** [50-days-50-web-project.vercel.app](https://50-days-50-web-project.vercel.app/)', '**🌐 Visit the Live Website:** [50-days-50-web-project.vercel.app](https://50-days-50-web-project.vercel.app/)')
-readme = re.sub(r'## 📚 All Projects \(112 Total\)[\s\S]*?### 📊 Project Categories:', '## 📚 All Projects (50 Curated Projects)\n\n<div align="center">\n\n### 🎮 Interactive Demo Available!\n\n**[🌐 Visit Live Website](https://50-days-50-web-project.vercel.app/)** to explore the curated portfolio-ready demos.\n\n</div>\n\n' + new_table + '\n### 📊 Project Categories:', readme)
+readme = readme.replace('**🌐 Visit the Live Website:** [50-days-50-web-project.vercel.app](https://50-days-50-web-projects.vercel.app/)', '**🌐 Visit the Live Website:** [50-days-50-web-project.vercel.app](https://50-days-50-web-projects.vercel.app/)')
+readme = re.sub(r'## 📚 All Projects \(112 Total\)[\s\S]*?### 📊 Project Categories:', '## 📚 All Projects (50 Curated Projects)\n\n<div align="center">\n\n### 🎮 Interactive Demo Available!\n\n**[🌐 Visit Live Website](https://50-days-50-web-projects.vercel.app/)** to explore the curated portfolio-ready demos.\n\n</div>\n\n' + new_table + '\n### 📊 Project Categories:', readme)
 readme = readme.replace('50-days-50-web-project.vercel.app', '50-days-50-web-project.vercel.app')
 readme = readme.replace('50 Days 50 Web Projects', '50 Days 50 Web Projects')
 readme = readme.replace('50-days-50-web-projects', '50-days-50-web-projects')
 readme = readme.replace('50-days-50-web-project', '50-days-50-web-project')
 readme = readme.replace('112+ web development projects', '50 professional web development projects')
-readme = readme.replace('**🌐 Visit the Live Website:** [50-days-50-web-project.vercel.app](https://50-days-50-web-project.vercel.app/)', '**🌐 Visit the Live Website:** [https://50-days-50-web-project.vercel.app](https://50-days-50-web-project.vercel.app/)')
+readme = readme.replace('**🌐 Visit the Live Website:** [50-days-50-web-project.vercel.app](https://50-days-50-web-projects.vercel.app/)', '**🌐 Visit the Live Website:** [https://50-days-50-web-projects.vercel.app](https://50-days-50-web-projects.vercel.app/)')
 readme_path.write_text(readme, encoding='utf-8')
 files_to_patch = [
     root / 'package.json',

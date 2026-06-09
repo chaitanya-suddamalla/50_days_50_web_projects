@@ -18,7 +18,7 @@ A small web app that lets two GitHub users "battle" by comparing public profile 
 
 ## Demo
 
-[View Demo](https://50-days-50-web-project.vercel.app/public/Github-Profile-Battle/index.html)
+[View Demo](https://50-days-50-web-projects.vercel.app/public/Github-Profile-Battle/index.html)
 
 ## How to Run Locally
 

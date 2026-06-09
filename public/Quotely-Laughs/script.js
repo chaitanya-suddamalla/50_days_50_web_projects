@@ -71,7 +71,7 @@ async function getRandomJoke() {
 
 function updateShareLinks(quote, joke) {
   const siteURL =
-    "https://50-days-50-web-project.vercel.app/Quotely-Laughs/index.html";
+    "https://50-days-50-web-projects.vercel.app/Quotely-Laughs/index.html";
 
   // X (Twitter) links
   document.getElementById("share-quote-x").href = 
